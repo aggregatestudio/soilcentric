@@ -25,9 +25,9 @@
           </a>
         </div>
         <div class="spf-product__info ">
-                    {% if product.vendor %}<div class="spf-product-card__vendor"><a href="/collections/vendors?q={{product.vendor}}">{{product.vendor}}</a></div>{% endif %}
+                    {% if product.vendor %}<div class="spf-product-card__vendor"><a href="{{product.url}}">{{product.vendor}}</a></div>{% endif %}
                               <div class="h4 spf-product-card__title"><a href="{{product.url}}">{{product.title}}</a></div>
-                    
+
           <form class="spf-product__form" action="/cart/add" method="post">
             <select name="id" class="spf-product__variants">
               {% for variant in product.variants %}
