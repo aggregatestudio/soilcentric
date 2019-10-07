@@ -1,0 +1,23 @@
+<!-- /snippets/social-sharing.liquid -->
+{% assign shareButtonStyle = settings.social_sharing_style %}
+
+<div class="social-sharing {{ shareButtonStyle }}">
+
+  {% if settings.share_facebook %}
+    <a target="_blank" href="//www.facebook.com/sharer.php?u={{ shop.url | append: share_permalink }}" class="share-facebook" title="{{ 'general.social.alt_text.share_on_facebook' | t }}">
+      <span class="icon icon-facebook" aria-hidden="true"></span>
+      <span class="share-title" aria-hidden="true">{{ 'general.social.share_on_facebook' | t }}</span>
+      <span class="visually-hidden">{{ 'general.social.alt_text.share_on_facebook' | t }}</span>
+    </a>
+  {% endif %}
+
+  {% if settings.share_twitter %}
+    <a target="_blank" href="https://twitter.com/intent/tweet?text=Just%20found%20%40Soil_Centric%2C%20a%20group%20creating%20customized%20paths%20for%20anyone%20to%20participate%20in%20the%20regenerative%20agriculture%20movement%21%20Calm%20your%20%23ClimateAnxiety%20https%3A%2F%2Fsoilcentric.org">
+      <span class="icon icon-twitter" aria-hidden="true"></span>
+      <span class="share-title" aria-hidden="true">{{ 'general.social.share_on_twitter' | t }}</span>
+      <span class="visually-hidden">{{ 'general.social.alt_text.share_on_twitter' | t }}</span>
+    </a>
+  {% endif %}
+
+
+</div>

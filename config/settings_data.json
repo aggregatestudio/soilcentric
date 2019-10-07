@@ -1,0 +1,649 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_headings": "#222323",
+    "color_body_text": "#222323",
+    "color_borders": "#1c1d1d",
+    "color_button_text": "#ffffff",
+    "color_primary": "#1c1d1d",
+    "color_secondary": "#67893e",
+    "color_product_background": "#f7f7f7",
+    "color_sale_tag": "#f0ffd5",
+    "color_input": "#ffffff",
+    "color_newsletter": "#cde3a3",
+    "color_drawer_background": "#1c1d1d",
+    "color_drawer_text": "#ffffff",
+    "color_drawer_border": "#343535",
+    "color_drawer_button": "#3b4e24",
+    "color_drawer_button_text": "#ffffff",
+    "type_header_family": "din_next_n4",
+    "type_header_base_size": "34px",
+    "type_header_border_thickness": "1px",
+    "type_accent_family": "din_next_n4",
+    "type_accent_transform": false,
+    "type_accent_spacing": false,
+    "type_accent_subheadings": true,
+    "type_base_family": "roboto_n4",
+    "type_base_size": "16px",
+    "type_base_italize_titles": true,
+    "cart_type": "page",
+    "cart_notes_enable": false,
+    "share_image": "",
+    "social_facebook_link": "",
+    "social_twitter_link": "https:\/\/twitter.com\/soil_centric",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/instagram.com\/soil_centric",
+    "social_snapchat_link": "",
+    "social_google_plus_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": false,
+    "favicon": "shopify:\/\/shop_images\/181108_Soil-Centric_Favicon_Vector_Black-circle_01_KL.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#a26b25",
+    "checkout_button_color": "#000000",
+    "checkout_error_color": "#e32c2b",
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "collection_products_grid": "collage",
+    "customer_layout": "customer_area",
+    "favicon_enable": false,
+    "product_vendor_enable": false,
+    "social_sharing_style": "clean",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/181105_Soil-Centric_Wordmark_Raster_Black_01_KL.png",
+          "logo-inverted": "shopify:\/\/shop_images\/181105_Soil-Centric_Wordmark_Vector_White_Large_01_KL.png",
+          "logo_max_width": "180",
+          "search": "none",
+          "main_menu_link_list": "main-menu",
+          "drawer_bottom_link_list": "",
+          "drawer_search_enable": false,
+          "show_announcement": false,
+          "home_page_only": false,
+          "text": "Announcing new partnerships with Terra Genesis International",
+          "link": "shopify:\/\/products\/terra-genesis-international",
+          "color_bg": "#fedc32",
+          "color_text": "#1d1d1c"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "1557095510646": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/UNADJUSTEDNONRAW_thumb_f6.jpg",
+              "color_image_overlay": "#3b4e24",
+              "image_overlay_opacity": 70,
+              "slide_subheading": "Soil Centric is designed to accelerate engagement in regenerative agriculture, an immediate avenue for climate action.",
+              "slide_heading": "Your path to regenerative agriculture.",
+              "slide_cta": "",
+              "slide_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1557095510646"
+        ],
+        "settings": {
+          "hero_home_auto": false,
+          "home_hero_auto_speed": "5000",
+          "slide_text_color": "#f0ffd5",
+          "slide_button_label_color": "#f0ffd5",
+          "slide_button_background_color": "#3b4e24"
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "We're building a flexible tool that guides each person to the regenerative path that’s right for them!",
+          "subheading": "<p><strong>We're in Beta!<\/strong> Be the first to know when we launch the <strong>Pathfinder Tool.&nbsp;<\/strong><a href=\"\/pages\/contact-us\" title=\"Contact Us\">Contact us<\/a> if you'd like to be a Beta-tester<\/p>"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_link_list": "",
+          "show_payment_icons": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection_products_grid": "grid",
+          "collection_sort_enable": false,
+          "collection_tags_enable": false,
+          "product_vendor_enable": false
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/181105_Soil-Centric_Wordmark_Vector_White_Large_01_KL.png",
+          "logo_max_width": "1"
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "title": "Your path to regenerative agriculture",
+          "newsletter_enable": true,
+          "newsletter_form_heading": "",
+          "newsletter_form_subheading": "<p><\/p>\n<p>Be the first to know when we launch!<\/p>",
+          "newsletter_placeholder": "Email address",
+          "newsletter_button_text": "Submit",
+          "show_share_buttons": true,
+          "social_message": "There is hope – calm your #climateanxiety"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "zoom_enable": true,
+          "social_sharing_products": true,
+          "product_vendor_enable": false,
+          "image_layout": "stacked",
+          "quantity_enabled": false,
+          "product_selector": "radio",
+          "enable_payment_button": false,
+          "add_to_cart_button_size": "small"
+        }
+      },
+      "1544834311024": {
+        "type": "advanced-content",
+        "blocks": {
+          "1544835776244": {
+            "type": "html",
+            "settings": {
+              "code": "<h2>About the Founders<\/h2>\n<p style=\"text-align:left;\">\nSoil Centric’s team has extensive knowledge of the soil and climate landscape, a proven record of bridging disparate sectors, and a demonstrated ability to forecast trends. We have active relationships across the globe with stakeholders in the sector, including nonprofits, farmers, ranchers, agencies, funders, and non-traditional partners.\n<\/p>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          },
+          "1544834311024-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:left;\">\n<a href=\"https:\/\/www.linkedin.com\/in\/diana-donlon-9202b21a\/\"><h4>Diana Donlon<\/h4><\/a>\n<p>\nThe founder of Center for Food Safety’s Soil Solutions program, Diana Donlon has a proven history of creating widespread awareness about the importance of healthy soil to climate stability at the local, national and international level. <a href=\"https:\/\/www.youtube.com\/watch?v=NxqBzrx9yIE\" target=\"_blank\">Soil Solutions to Climate Problems<\/a>, a short film she conceived of and produced, was screened during COP21 (the Paris Climate Conference), in December 2015. <i>Soil Solutions<\/i> created an aesthetic that has been widely emulated, and its animated footage has been incorporated into two feature-length documentary films. Diana, a skilled public speaker, excels at identifying trends, and she brings a depth of social and intellectual capital to the soil and climate movement. She has degrees from UC Berkeley and the Harvard Graduate School of Education and served as a Peace Corps volunteer in Morocco.<\/p>\n<\/div>",
+              "width": "50%",
+              "alignment": "top-middle"
+            }
+          },
+          "1544834346099": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:left;\">\n<a href=\"https:\/\/www.linkedin.com\/in\/kylelawson\/\"><h4> Kyle Lawson <\/h4><\/a>\n\nKyle Lawson was until recently Director of Design and Marketing at Sight Machine, a manufacturing analytics platform. His life changed when he read Kristin Ohlson’s book The <i>Soil Will Save Us<\/i> and decided he had to get involved in regeneration. He didn’t know how, until he happened to meet Diana at a podcasting workshop. As a millennial deeply concerned about climate, he has first-hand knowledge of the need for Soil Centric’s platform.\n<\/div>",
+              "width": "50%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1544835776244",
+          "1544834311024-0",
+          "1544834346099"
+        ],
+        "settings": {}
+      },
+      "1544835350983": {
+        "type": "featured-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/IMG_6697.JPEG",
+          "layout": "left",
+          "title": "Our Mission",
+          "text": "<p>To&nbsp;illuminate the opportunities, resources, and pathways for widespread participation in the creation of a resilient and abundant future.&nbsp;<\/p>",
+          "button_label": "Donate to help us launch the Pathfinder Tool",
+          "button_link": "https:\/\/secure.squarespace.com\/checkout\/donate?donatePageId=5cbf727238505c0001b56f90"
+        }
+      },
+      "1557100988275": {
+        "type": "featured-video",
+        "settings": {
+          "heading": "Watch \"Resilience in Practice\" produced by Soil Centric & Fibershed",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=1wKTDUEBDf8&t=331s"
+        }
+      },
+      "1557782728416": {
+        "type": "featured-video",
+        "settings": {
+          "heading": "Speaking at Climate One",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=Ttz33n2Ns-k&list=PLzRl0Bj3aeqPGf7QWWibBxP-3bmrb-_N6&index=3&t=0s"
+        }
+      },
+      "1558394770771": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "The Basics",
+          "blog": "the-basics",
+          "post_limit": 2,
+          "blog_show_date": false,
+          "blog_show_author": false,
+          "blog_show_image": true,
+          "blog_show_excerpt": true,
+          "show_view_all": false
+        }
+      },
+      "1559921633170": {
+        "type": "advanced-content",
+        "blocks": {
+          "1559921633170-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:center;\"><h2>Soil Centric Advisory Board<\/h2><\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          },
+          "1559921732857": {
+            "type": "html",
+            "settings": {
+              "code": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0069\/1181\/9846\/files\/Christine_Su.jpg\">\n<div style=\"text-align:center;\">Christine Su<br> Co-Founder and CEO, Pasture Map<\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          },
+          "1559921966117": {
+            "type": "html",
+            "settings": {
+              "code": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0069\/1181\/9846\/files\/Judy-Schwartz.jpg\">\n<div style=\"text-align:center;\">Judith D. Schwartz<br>\nAuthor, “Cows Save the Planet” and “Water in Plain Sight”<\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          },
+          "1559922029725": {
+            "type": "html",
+            "settings": {
+              "code": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0069\/1181\/9846\/files\/Julie-Morris.jpg\">\n<div style=\"text-align:center;\">Julie F. Morris<br> Rancher, Morris Grassfed,\nSan Juan Bautista, California <\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          },
+          "1559922051381": {
+            "type": "html",
+            "settings": {
+              "code": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0069\/1181\/9846\/files\/Kristin-Ohlson.jpg\">\n<div style=\"text-align:center;\">Kristin Ohlson<br> Author, “The Soil Will Save Us”<\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          },
+          "1559922083975": {
+            "type": "html",
+            "settings": {
+              "code": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0069\/1181\/9846\/files\/Rebecca-Ryals.jpg\">\n<div style=\"text-align:center;\">Rebecca Ryals,  Ph.D. <br>Assistant professor, University of California, Merced<\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          },
+          "1566952477668": {
+            "type": "html",
+            "settings": {
+              "code": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0069\/1181\/9846\/files\/John-D-Liu-by-Sam-Gracey.jpg\">\n<div style=\"text-align:center;\">John D. Liu<br>Founder, Ecosystem Restoration Camps Network<\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          },
+          "1568909416838": {
+            "type": "html",
+            "settings": {
+              "code": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0069\/1181\/9846\/files\/Alice-Waters_1944x.jpg\">\n<div style=\"text-align:center;\">Alice Waters<br>Executive Chef, Founder and Owner of Chez Panisse<\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1559921633170-0",
+          "1559921732857",
+          "1559921966117",
+          "1559922029725",
+          "1559922051381",
+          "1559922083975",
+          "1566952477668",
+          "1568909416838"
+        ],
+        "settings": {}
+      },
+      "1559922843805": {
+        "type": "featured-content",
+        "settings": {
+          "home_page_full_width": false,
+          "section_title": "",
+          "text": "<p>We give&nbsp;presentations&nbsp;on soil and climate at conferences, educational events, philanthropic circles, gardening clubs and any other event where we can build bridges to new constituencies.<\/p>\n<p>Please <a href=\"\/pages\/contact-us\" title=\"Contact Us\">contact us<\/a> if you would like one of our team members to speak at your event.<\/p>",
+          "text_size": "medium"
+        }
+      }
+    },
+    "content_for_index": [
+      "1544835350983",
+      "newsletter",
+      "1557100988275",
+      "1558394770771",
+      "1544834311024",
+      "1557782728416",
+      "1559922843805",
+      "1559921633170"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "cart_type": "drawer",
+      "cart_notes_enable": false,
+      "checkout_accent_color": "#a26b25",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#000000",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "collection_products_grid": "collage",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#222323",
+      "color_borders": "#1c1d1d",
+      "color_button_text": "#ffffff",
+      "color_drawer_background": "#1c1d1d",
+      "color_drawer_border": "#343535",
+      "color_drawer_button": "#a26b25",
+      "color_drawer_button_text": "#ffffff",
+      "color_drawer_text": "#ffffff",
+      "color_headings": "#222323",
+      "color_input": "#f6f6f6",
+      "color_newsletter": "#f6f6f6",
+      "color_primary": "#1c1d1d",
+      "color_product_background": "#f7f7f7",
+      "color_sale_tag": "#990000",
+      "color_secondary": "#a26b25",
+      "customer_layout": "customer_area",
+      "favicon_enable": false,
+      "product_vendor_enable": false,
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_sharing_style": "clean",
+      "type_accent_family": "montserrat_n6",
+      "type_accent_spacing": true,
+      "type_accent_transform": true,
+      "type_accent_subheadings": true,
+      "type_base_family": "arapey_n4",
+      "type_base_italize_titles": true,
+      "type_base_size": "16px",
+      "type_header_base_size": "30px",
+      "type_header_border_thickness": "1px",
+      "type_header_family": "old_standard_tt_n4",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_announcement": true,
+            "color_bg": "#1c1d1d",
+            "color_text": "#ffffff"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "slide",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "slide",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_featured_products": "frontpage"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collections-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-2": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "featured-collections-0",
+            "featured-collections-1",
+            "featured-collections-2"
+          ],
+          "settings": {}
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "featured-content",
+        "featured-collections",
+        "featured-products",
+        "newsletter"
+      ]
+    },
+    "Playful": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#565656",
+      "color_borders": "#5dd2b4",
+      "color_button_text": "#ffffff",
+      "color_primary": "#7737BD",
+      "color_secondary": "#058677",
+      "color_product_background": "#fff4f6",
+      "color_sale_tag": "#e80970",
+      "color_input": "#f6f6f6",
+      "color_newsletter": "#bde9f2",
+      "color_drawer_background": "#360f5f",
+      "color_drawer_text": "#ffffff",
+      "color_drawer_border": "#50297a",
+      "color_drawer_button": "#7737BD",
+      "color_drawer_button_text": "#ffffff",
+      "color_headings": "#321863",
+      "type_header_family": "quicksand_n7",
+      "type_header_base_size": "38px",
+      "type_header_border_thickness": "1px",
+      "type_accent_family": "roboto_n7",
+      "type_accent_transform": true,
+      "type_accent_spacing": true,
+      "type_accent_subheadings": false,
+      "type_base_family": "helvetica_n4",
+      "type_base_size": "17px",
+      "type_base_italize_titles": false,
+      "cart_type": "drawer",
+      "cart_notes_enable": true,
+      "social_facebook_link": "",
+      "social_twitter_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_snapchat_link": "",
+      "social_google_plus_link": "",
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "social_fancy_link": "",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fff4f6",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Roboto",
+      "checkout_accent_color": "#7737BD",
+      "checkout_button_color": "#7737BD",
+      "checkout_error_color": "#f01130",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "collection_products_grid": "collage",
+      "customer_layout": "customer_area",
+      "favicon_enable": false,
+      "product_vendor_enable": false,
+      "social_sharing_style": "clean",
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1495823280244": {
+              "type": "slide",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1495823280244"
+          ],
+          "settings": {
+            "hero_home_auto": false,
+            "home_hero_auto_speed": "5000"
+          }
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_featured_products": "frontpage",
+            "collection_products_grid": "collage"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_max_width": "260",
+            "search": "modal",
+            "main_menu_link_list": "main-menu",
+            "show_announcement": false,
+            "color_bg": "#290c49",
+            "color_text": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "footer_link_list": "footer"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_products_grid": "grid",
+            "collection_tags_enable": false,
+            "product_vendor_enable": false
+          }
+        },
+        "1494860348200": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "right"
+          }
+        },
+        "1494894035034": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "left"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "zoom_enable": false,
+            "social_sharing_products": true,
+            "product_vendor_enable": false
+          }
+        },
+        "1496078102297": {
+          "type": "advanced-content",
+          "blocks": {
+            "1496078102297-0": {
+              "type": "html",
+              "settings": {
+                "code": "<div style=\"text-align:center;\">\n<h1 class=\"h1\">Use HTML to format your text so it can be easily read.<\/h1>This text can be used to share information about your brand with customers.<\/div>",
+                "width": "100%",
+                "alignment": "top-middle"
+              }
+            }
+          },
+          "block_order": [
+            "1496078102297-0"
+          ],
+          "settings": {}
+        },
+        "1496177901425": {
+          "type": "advanced-content",
+          "blocks": {
+            "1496177901425-0": {
+              "type": "html",
+              "settings": {
+                "code": "<div style=\"width:745px;text-align: center; margin: 0 auto;\">This text can be used to share information about your brand with customers.<\/div>",
+                "width": "100%",
+                "alignment": "top-middle"
+              }
+            }
+          },
+          "block_order": [
+            "1496177901425-0"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "1496177901425",
+        "featured-products",
+        "newsletter",
+        "1496078102297",
+        "1494860348200",
+        "1494894035034"
+      ]
+    }
+  }
+}
