@@ -13,8 +13,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PQ2CW6L');</script>
 <!-- End Google Tag Manager -->
-  
-  
+
+
   <!-- Basic page needs ================================================== -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -86,7 +86,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
   {% endif %}
 
-  
+
 </head>
 
 {% comment %}
@@ -98,7 +98,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ2CW6L"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  
+
   {% section 'header' %}
 
 
@@ -108,12 +108,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {% section 'slideshow' %}
     {% endif %}
 
+    {% if template.name == "indexPFLP" %}
+      {% section 'slideshowPFLP' %}
+    {% endif %}
+
     <main class="main-content" role="main">
-      {% unless template.name == "index" or template == "collection.image" %}
+      {% unless template.name == "index" or template == "collection.image" or template.name == "indexPFLP" %}
         <div class="wrapper">
       {% endunless %}
         {{ content_for_layout }}
-      {% unless template.name == "index" or template == "collection.image" %}
+      {% unless template.name == "index" or template == "collection.image" or template.name == "indexPFLP"  %}
         </div>
       {% endunless %}
     </main>
