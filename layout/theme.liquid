@@ -108,16 +108,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {% section 'slideshow' %}
     {% endif %}
 
-    {% if template.name == "indexPFLP" %}
-      {% section 'slideshowPFLP' %}
-    {% endif %}
 
     <main class="main-content" role="main">
-      {% unless template.name == "index" or template == "collection.image" or template.name == "indexPFLP" %}
+      {% unless template.name == "index" or template == "collection.image" or template == "page.PFLP" %}
         <div class="wrapper">
       {% endunless %}
         {{ content_for_layout }}
-      {% unless template.name == "index" or template == "collection.image" or template.name == "indexPFLP"  %}
+      {% unless template.name == "index" or template == "collection.image" %}
         </div>
       {% endunless %}
     </main>
