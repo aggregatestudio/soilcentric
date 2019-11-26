@@ -8,6 +8,7 @@
     {% assign featured_image = product.featured_image.src %}
   {% endif %}
 
+
             <div class="spf-col-xl-4 spf-col-lg-4 spf-col-md-6 spf-col-sm-6 spf-col-6">
       <div class="spf-product-card spf-product-card__template-3{% unless product.available %} spf-soldout{% endunless %}">
         <div class="spf-product-card__inner">
@@ -25,8 +26,9 @@
           </a>
         </div>
         <div class="spf-product__info ">
-                    {% if product.vendor %}<div class="spf-product-card__vendor"><a href="{{product.url}}">{{product.vendor}}</a></div>{% endif %}
-                              <div class="h4 spf-product-card__title"><a href="{{product.url}}">{{product.title}}</a></div>
+            <div class="h4 spf-product-card__title"><a href="{{product.url}}">{{product.title}}</a></div>
+            {% if product.vendor %}<div class="spf-product-card__vendor"><a href="{{product.url}}">{{product.vendor}}</a></div>{% endif %}
+
 
           <form class="spf-product__form" action="/cart/add" method="post">
             <select name="id" class="spf-product__variants">

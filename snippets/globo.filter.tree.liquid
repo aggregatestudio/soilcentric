@@ -1,11 +1,12 @@
 {% raw %}
 <span onclick="globofilter.toggleCanvas()" class="gf-close-canvas"></span>
 <div class="gf-filter-contents">
+  <h3>Filter Panel</h3>
   {% if has_filter %}
   <div class="gf-selection-wrapper">
     <div class="gf-block-title">
-      <h3><span>Filter By</span></h3>
-      <a href="javascript:;" onclick="clearAllFilter()" class="gf-refine-toggle">Clear All</a>
+      <h3><span>Currently filtered by:</span></h3>
+      <a href="javascript:;" onclick="clearAllFilter()" class="gf-refine-toggle clear-btn">Clear All</a>
     </div>
     <div class="gf-block-content globo-selected-items">
       {% for filter in filters %}
@@ -14,7 +15,8 @@
             <div class="selected-item gf-option-label">
               <a href="javascript:" onclick="removeFilter({{filter.id}})">
                 <span class="selected-item">
-                  {{filter.label}}:
+                  {{filter.label}}
+                  <br>
                   <strong>
                     {% if filter.attribute == 'Price' %}
                       <span class="money">{{filter.values.min | money}}</span> - <span class="money">{{filter.values.max | money}}</span>
@@ -31,7 +33,7 @@
               {% if value.selected %}
                 <div class="selected-item gf-option-label">
                   <a href="javascript:" onclick="removeFilterValue({{filter.id}},'{{value.value | replace:"'", "\'" | escape_once}}')">
-                    <span class="selected-item">{{filter.label}}: <strong>{{value.label}}</strong></span><span class="gf-clear"></span>
+                    <span class="selected-item">{{filter.label}} <br> <strong>{{value.label}}</strong></span><span class="gf-clear"></span>
                   </a>
                 </div>
               {% endif %}
@@ -48,7 +50,7 @@
       <div class="gf-block-title">
         <h3><span>{{filter.label}}</span></h3>
         {% if filter.is_selected %}
-        <a href="javascript:" class="gf-clear" onclick="removeFilter({{filter.id}})">Clear</a>
+        <a href="javascript:" class="gf-clear clear-btn" onclick="removeFilter({{filter.id}})">Clear</a>
         {% endif %}
       </div>
       <div class="gf-block-content">

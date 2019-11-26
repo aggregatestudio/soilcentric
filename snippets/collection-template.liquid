@@ -5,6 +5,8 @@
 {% paginate collection.products by 12 %}
 
 <header class="section-header text-center">
+
+{% comment %} -- Kyle --  Removing h1 from the top 
   <h1>{{ collection.title }}</h1>
   <hr class="hr--small">
   {% if collection.description != blank %}
@@ -16,6 +18,7 @@
       </div>
     </div>
   {% endif %}
+{% endcomment %}
 
     <div class="grid--full collection-sorting{% if section.settings.collection_sort_enable %} collection-sorting--enabled{% endif %}">
       {% if section.settings.collection_sort_enable %}
